@@ -29,8 +29,18 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Agenda
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Walkthrough of Next.js app and TODO's
+- Why use an ORM?
+- SQLite disclaimer
+- Install Prisma `npm install prisma --save-dev`
+- Initialize Prisma with --datasource-provider sqlite, go over Prisma folder and .env file
+- Collaborate on a schema
+- Run `npx prisma db push`
+- Run `npx prisma studio`, disclaimer: we will use this to create data to avoid building a form
+- Next.js Prisma instantiation bug
+- Prisma client
+- Fetching data
+- Migrations
+- Cons
